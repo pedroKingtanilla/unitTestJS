@@ -1,0 +1,24 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "nyc --clean --reporter=lcovonly --reporter=json --reporter=text mocha test/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "fastify": "^1.2.0",
+    "mocha": "^6.1.4",
+    "pubsub-js": "^1.7.0",
+    "sinon": "^7.3.2",
+    "tap": "^13.1.2"
+  },
+  "devDependencies": {
+    "codecov": "^3.3.0"
+  }
+}
